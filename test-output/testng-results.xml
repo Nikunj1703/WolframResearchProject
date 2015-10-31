@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="101649" started-at="2015-10-31T15:20:22Z" finished-at="2015-10-31T15:22:03Z">
+    <groups>
+    </groups>
+    <test name="Wolfram Cloud Open Site" duration-ms="101649" started-at="2015-10-31T15:20:22Z" finished-at="2015-10-31T15:22:03Z">
+      <class name="test.MainTestClass">
+        <test-method status="PASS" signature="launchTheApp()[pri:0, instance:test.MainTestClass@45099dd3]" name="launchTheApp" duration-ms="3464" started-at="2015-10-31T10:20:22Z" finished-at="2015-10-31T10:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheApp -->
+        <test-method status="PASS" signature="footerOnHomePage()[pri:0, instance:test.MainTestClass@45099dd3]" name="footerOnHomePage" duration-ms="487" started-at="2015-10-31T10:20:25Z" depends-on-methods="test.MainTestClass.launchTheApp" finished-at="2015-10-31T10:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerOnHomePage -->
+        <test-method status="PASS" signature="navigateToWolframDevPlatform()[pri:0, instance:test.MainTestClass@45099dd3]" name="navigateToWolframDevPlatform" duration-ms="282" started-at="2015-10-31T10:20:26Z" depends-on-methods="test.MainTestClass.footerOnHomePage" finished-at="2015-10-31T10:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWolframDevPlatform -->
+        <test-method status="PASS" signature="navigateToSignUpPage()[pri:0, instance:test.MainTestClass@45099dd3]" name="navigateToSignUpPage" duration-ms="8005" started-at="2015-10-31T10:20:26Z" depends-on-methods="test.MainTestClass.navigateToWolframDevPlatform" finished-at="2015-10-31T10:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignUpPage -->
+        <test-method status="PASS" signature="fillTheSignUpForm()[pri:0, instance:test.MainTestClass@45099dd3]" name="fillTheSignUpForm" duration-ms="2634" started-at="2015-10-31T10:20:34Z" depends-on-methods="test.MainTestClass.navigateToSignUpPage" finished-at="2015-10-31T10:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheSignUpForm -->
+        <test-method status="PASS" signature="clickToCreateAccount()[pri:0, instance:test.MainTestClass@45099dd3]" name="clickToCreateAccount" duration-ms="37808" started-at="2015-10-31T10:20:37Z" depends-on-methods="test.MainTestClass.fillTheSignUpForm" finished-at="2015-10-31T10:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToCreateAccount -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToNoteBookOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToNoteBookOption" duration-ms="776" started-at="2015-10-31T10:21:14Z" depends-on-methods="test.MainTestClass.clickToCreateAccount" finished-at="2015-10-31T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToNoteBookOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsHTMLOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsHTMLOption" duration-ms="103" started-at="2015-10-31T10:21:15Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsHTMLOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToCSSOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToCSSOption" duration-ms="108" started-at="2015-10-31T10:21:15Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToCSSOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToJavaScriptOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToJavaScriptOption" duration-ms="70" started-at="2015-10-31T10:21:15Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToJavaScriptOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToPackageOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToPackageOption" duration-ms="54" started-at="2015-10-31T10:21:16Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToPackageOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToTemplateOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToTemplateOption" duration-ms="68" started-at="2015-10-31T10:21:16Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToTemplateOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToTextOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToTextOption" duration-ms="56" started-at="2015-10-31T10:21:16Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToTextOption -->
+        <test-method status="PASS" signature="checkIfNewButtonExpendsToXMLOption()[pri:0, instance:test.MainTestClass@45099dd3]" name="checkIfNewButtonExpendsToXMLOption" duration-ms="54" started-at="2015-10-31T10:21:16Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfNewButtonExpendsToXMLOption -->
+        <test-method status="PASS" signature="clickNoteBookLink()[pri:0, instance:test.MainTestClass@45099dd3]" name="clickNoteBookLink" duration-ms="10915" started-at="2015-10-31T10:21:16Z" depends-on-methods="test.MainTestClass.checkIfNewButtonExpendsToNoteBookOption" finished-at="2015-10-31T10:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNoteBookLink -->
+        <test-method status="PASS" signature="clickUnnamedTextField()[pri:0, instance:test.MainTestClass@45099dd3]" name="clickUnnamedTextField" duration-ms="3726" started-at="2015-10-31T10:21:27Z" depends-on-methods="test.MainTestClass.clickNoteBookLink" finished-at="2015-10-31T10:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickUnnamedTextField -->
+        <test-method status="PASS" signature="clickOnUserIconLink()[pri:0, instance:test.MainTestClass@45099dd3]" name="clickOnUserIconLink" duration-ms="1284" started-at="2015-10-31T10:21:30Z" depends-on-methods="test.MainTestClass.clickUnnamedTextField" finished-at="2015-10-31T10:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnUserIconLink -->
+        <test-method status="PASS" signature="clickOnLogoutLink()[pri:0, instance:test.MainTestClass@45099dd3]" name="clickOnLogoutLink" duration-ms="4937" started-at="2015-10-31T10:21:32Z" depends-on-methods="test.MainTestClass.clickOnUserIconLink" finished-at="2015-10-31T10:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogoutLink -->
+        <test-method status="PASS" signature="navigateToWolframDevPlatformWithNewUser()[pri:0, instance:test.MainTestClass@45099dd3]" name="navigateToWolframDevPlatformWithNewUser" duration-ms="293" started-at="2015-10-31T10:21:37Z" depends-on-methods="test.MainTestClass.clickOnLogoutLink" finished-at="2015-10-31T10:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWolframDevPlatformWithNewUser -->
+        <test-method status="PASS" signature="fillTheSignInDetails()[pri:0, instance:test.MainTestClass@45099dd3]" name="fillTheSignInDetails" duration-ms="22561" started-at="2015-10-31T10:21:37Z" depends-on-methods="test.MainTestClass.navigateToWolframDevPlatformWithNewUser" finished-at="2015-10-31T10:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheSignInDetails -->
+        <test-method status="PASS" signature="ClickOnUserIconAgain()[pri:0, instance:test.MainTestClass@45099dd3]" name="ClickOnUserIconAgain" duration-ms="271" started-at="2015-10-31T10:22:00Z" depends-on-methods="test.MainTestClass.fillTheSignInDetails" finished-at="2015-10-31T10:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnUserIconAgain -->
+        <test-method status="PASS" signature="logOutAgain()[pri:0, instance:test.MainTestClass@45099dd3]" name="logOutAgain" duration-ms="2806" started-at="2015-10-31T10:22:00Z" depends-on-methods="test.MainTestClass.ClickOnUserIconAgain" finished-at="2015-10-31T10:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAgain -->
+        <test-method status="PASS" signature="shutTheBrowsers()[pri:0, instance:test.MainTestClass@45099dd3]" name="shutTheBrowsers" duration-ms="825" started-at="2015-10-31T10:22:03Z" depends-on-methods="test.MainTestClass.logOutAgain" finished-at="2015-10-31T10:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutTheBrowsers -->
+      </class> <!-- test.MainTestClass -->
+    </test> <!-- Wolfram Cloud Open Site -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

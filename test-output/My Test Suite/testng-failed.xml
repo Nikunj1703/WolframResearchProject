@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Test Suite]">
+  <test name="Wolfram Cloud Open Site(failed)">
+    <classes>
+      <class name="test.MainTestClass">
+        <methods>
+          <include name="footerOnHomePage"/>
+          <include name="launchTheApp"/>
+          <include name="ClickOnUserIconAgain"/>
+          <include name="navigateToWolframDevPlatformWithNewUser"/>
+          <include name="shutTheBrowsers"/>
+          <include name="fillTheSignInDetails"/>
+          <include name="logOutAgain"/>
+        </methods>
+      </class> <!-- test.MainTestClass -->
+    </classes>
+  </test> <!-- Wolfram Cloud Open Site(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->

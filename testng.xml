@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My Test Suite">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+  
+  
+<test name="Wolfram Cloud Open Site" preserve-order="true">
+	<classes>
+		<class name="test.MainTestClass" ></class>	
+	</classes>
+</test>
+</suite>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Wolfram Cloud Open Site"
+           tests="23"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="110.274">
+  <properties />
+  
+  
+            <testcase name="checkIfNewButtonExpendsToCSSOption" time="0.076" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsToTextOption" time="0.077" classname="test.MainTestClass" />
+                <testcase name="clickNoteBookLink" time="19.162" classname="test.MainTestClass" />
+                <testcase name="ClickOnUserIconAgain" time="0.295" classname="test.MainTestClass" />
+                <testcase name="clickOnLogoutLink" time="3.536" classname="test.MainTestClass" />
+                <testcase name="launchTheApp" time="6.323" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsToXMLOption" time="0.058" classname="test.MainTestClass" />
+                <testcase name="navigateToSignUpPage" time="11.955" classname="test.MainTestClass" />
+                <testcase name="clickToCreateAccount" time="39.217" classname="test.MainTestClass" />
+                <testcase name="fillTheSignUpForm" time="2.919" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsToJavaScriptOption" time="0.107" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsHTMLOption" time="0.063" classname="test.MainTestClass" />
+                <testcase name="clickUnnamedTextField" time="2.889" classname="test.MainTestClass" />
+                <testcase name="logOutAgain" time="3.171" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsToTemplateOption" time="0.071" classname="test.MainTestClass" />
+                <testcase name="fillTheSignInDetails" time="13.553" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsToNoteBookOption" time="1.414" classname="test.MainTestClass" />
+                <testcase name="checkIfNewButtonExpendsToPackageOption" time="0.073" classname="test.MainTestClass" />
+                <testcase name="navigateToWolframDevPlatform" time="0.382" classname="test.MainTestClass" />
+                <testcase name="clickOnUserIconLink" time="3.528" classname="test.MainTestClass" />
+                <testcase name="shutTheBrowsers" time="0.586" classname="test.MainTestClass" />
+                <testcase name="footerOnHomePage" time="0.568" classname="test.MainTestClass" />
+                <testcase name="navigateToWolframDevPlatformWithNewUser" time="0.251" classname="test.MainTestClass" />
+      
+</testsuite>
